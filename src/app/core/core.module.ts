@@ -11,6 +11,7 @@ import { HomeModule } from '../features/home/home.module';
   imports: [
     CommonModule,
     HomeModule
+    
   ],
   exports: [LayoutComponent, FooterComponent]
 })

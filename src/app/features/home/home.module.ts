@@ -5,13 +5,14 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HeadComponent } from './head/head.component';
 import { MainComponent } from './main/main.component';
 import { HomeComponent } from './home.component';
-
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [HeadComponent, MainComponent, HomeComponent],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    MatToolbarModule
   ],
   exports: [HomeComponent]
 })
